@@ -1,0 +1,666 @@
+*{
+    background: rgba(0, 0, 0,0);
+    vertical-align: top;
+}
+body{
+    background: #fff;
+}
+.purple{
+    background: purple;
+}
+.orange{
+    background: orange;
+}
+.yellow{
+    background: yellow;
+}
+.black{
+    background: black;
+}
+.green{
+    background: green;
+}
+
+.brown{
+    background: #6e6568;
+}
+
+.blue{
+    background: blue;
+}
+
+.left{
+    text-align: left;
+}
+.wrapper{
+    background: #fff;
+}
+.nav .row .wrapper{
+    background: #FFFFFF;
+}
+.nav .header-bg{
+    height: 1200px;
+    position: absolute;
+    background: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(white));
+    background-image: -webkit-linear-gradient(right, black, white);
+    background-image: -moz-linear-gradient(right, black, white);
+    background-image: linear-gradient(to right, black, white);
+    position: fixed;    
+}
+.nav .top-nav{
+    margin-right: 17px;
+}
+
+.nav .col-10 .row .col a:link{
+    color: #181818;
+}
+
+.nav .col-10 .row .col{
+    line-height: 25px;
+    font-weight: 400;
+    color:  rgba(255, 255, 255, 1)  ;
+
+}
+.nav .search input{
+    border: 1px solid #181818;
+    height: 35px;
+    width: 400px;
+    vertical-align: bottom;    
+    margin-left: 130px;
+}
+.nav .search .sping-cart.col-2{
+    line-height: 100px;
+    height: 100px;    
+}
+.col-9.search.center{
+    margin-top: 60px;
+}
+.nav .search .search.col-10{
+    line-height: 100px;
+}
+
+.nav .search .search button{
+    background: #181818;
+    border: 1px solid #181818;
+    height: 35px;
+    width: 50px;
+    vertical-align: bottom;
+    margin-left: -4px;
+    
+}
+.sping-cart button{
+    border: 1px solid #181818;
+    background: #181818;
+    color: #fff;
+    width: 100px;
+    height: 35px;
+    vertical-align: baseline;   
+    margin-top: 65px; 
+}
+.QR .QR{
+    height: 82.6px;
+    text-align: right;
+}
+
+.hot-search{
+    margin-right: 120px;
+}
+
+
+.hot-search .item{
+    margin: 0 3px;
+    
+}
+
+.hot-search .col .hot{
+    color: red
+}
+
+
+.nav .logo{
+    text-align: center;
+    line-height: 200px;
+    height: 200px;
+    margin-bottom: 4px;
+}
+
+.nav .head-nav .nav{
+    margin-top: 25px;
+    margin-left: -100px;
+}
+.nav .row .col .head-nav .nav .item{
+    font-size: 15px;
+    margin: 0 13px;
+    color: black;
+    font-weight: 700;
+}    
+.nav .row .col .head-nav .ad{
+    height: 30px;
+    margin-top: 20;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 900;
+    background: #181818;
+    margin-right: -40px;
+}
+
+
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
+.row.nav.center{
+    font-size: 1;
+
+}
+.col-12.out,
+.col-12.id{
+    padding: 0 0 0 25px;
+}
+
+a:visited,
+a:link{
+    color: #181818;
+}
+
+
+a:hover{
+    color:#AD0F0F;
+    background: rgba(255,255,255,0.1);
+}
+
+
+
+input:focus{
+    border: 1px solid red;
+}
+
+.cart button{
+    height: 30px;
+    width: 80px;
+}
+
+.row.prom{
+    /* display: block; */
+    width: 100%;
+}
+
+.s-pink,
+.m-pink,
+.big-pink,
+.pink{
+    background: #adb5b5  ;
+}
+
+.prom .col-2.left{
+    height: 500px;
+}
+.prom .col.col-2.left{
+    background: #181818;
+    border-right: 5px solid #fff;
+    margin-bottom: 5px;
+    border-left: 3px solid #fff;   
+}
+
+.prom .col.col-6 .slider{
+    height: 350px; 
+}
+
+
+.prom .slider{
+    height: 350px;
+    width: 100%;
+    border-bottom: 10px solid #fff;
+}
+.prom .col.ad{
+    width: 100%;
+    height: 150px;
+
+}
+
+.ad .col-6{
+    height: 150px;
+    display: inline-block;
+    margin: 1px 0;
+}
+
+.row .card{
+    display: inline-block;
+    width: 100%;
+}
+.title.red,
+.card .col-4 .title.red,
+.card .col-12 .title{
+    height: 50px;
+    line-height: 49px;
+    color: white;
+}
+.red{
+    background: #181818;
+}
+.card .content .name{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+}
+.card .content .price{
+    font-size: 20px;
+    font-weight: bold;
+    color: #f00;
+    padding-left: 20px;
+    vertical-align: baseline;
+}
+.card .content .o-price{
+    font-size: 18px;
+    font-weight: 500; 
+    vertical-align: baseline;
+    text-decoration: line-through;
+}
+.card .col-12 .content .col-2{
+    padding: 0 5px;
+}
+
+/* .content .col-2 a{
+    background: pink;
+    height: 200px;
+    border: 3px solid white;
+} */
+
+.title.red,
+.row.title.purple,
+.row.title.orange,
+.card84 .col-4 .title{
+    height: 50px;
+}
+.title{
+    height: 50px;
+    line-height: 50px;
+    border-left: 3px solid #fff;
+    border-right:  3px solid #fff;
+}
+
+.title.col-12{
+}
+
+.card84 .col-12.title,
+.card66 .title .title1,
+.card .col-12 .col-12.red.title,
+.card .col-4 .col-12.title{
+    padding: 0 0 0 30px;
+    font-size: 20px;
+} 
+
+.col.col-4 .content{
+    display: inline-block;
+    width: 100%;
+    height: 120px; 
+}
+.col.col-4 .content .col-6{
+    display: inline-block;
+    height: 120px;
+    border: 2px solid #fff;
+}    
+.row.content.pink{
+    display: inline-block;
+
+}
+
+
+.row.card .col.col-4{
+    display: inline-block;
+    height: 400px;
+}
+
+.row.card .row.prom.col-12{
+    display: inline-block;
+    width: 100%;
+    height: 180px;
+    border: 2px solid #fff;
+}
+.col--1 .item{
+    display: inline-block;
+    width: 100%;
+    height: 15px;
+}
+
+.row.card .row.prom .col-4{
+    display: inline-block;
+    height: 173px;
+    border: 2px solid #fff;
+}
+.card84 .pink{
+    display: inline-block;
+    height: 260px;
+    border: 2px solid #fff;
+}
+
+.card .col-4 .content .col-4{
+    padding: 40px 0px 0px 0px;
+}
+.row525{
+    padding-bottom: 65px;
+}
+.row525,
+.ad.full-width{
+    border-top: 30px solid #fff;
+    border-bottom: 30px solid #fff;
+}
+.main1 .col-4{
+    display: inline-block;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    font-size: 50px;
+}
+
+.row .row525 .text{
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    font-weight: 900;
+    color: red;
+}
+
+.row .row525 .col-5{
+    color: rgba(255, 0, 0, 0.7);
+}
+
+.row .row444 .col-4 .prom{
+    display: inline-block;
+    height: 160px;
+    line-height: 160px;
+    text-align: center;
+    border: 2px solid #fff;
+}
+.row .row444 .col-4 .big-prom{
+    height: 320px;
+    border: 2px solid #fff;
+    line-height: 320px;
+    text-align: center;
+}
+.row .row444 .col-4 .row66 .col-6{
+    height: 160px;
+    border: 2px solid #fff;
+    line-height: 160px;
+    text-align: center;
+}
+    
+.card66 .title.red.col-6{
+    height: 40px;
+    border: 2px solid #fff;
+}
+
+.row .title .item-list,
+.card66 .card66 .title .item-list{
+    display: inline-block;
+    text-align: right;
+}
+
+.row .title .item-list .item,
+.card66 .card66 .title .item-list .item{
+    text-align: right;
+    padding: 0 10px;
+}
+.card66 a:link{
+    color: white; 
+}
+.card a:hover{
+    border: 1px solid #E9DDDD;
+}
+    
+.big-pink{
+    height: 200px;
+    border: 5px solid #fff;
+    line-height: 190px;
+    text-align: center
+
+}
+.card66 .row .prom .pink{
+    height: 100px;
+    border: 2px solid #fff;
+    line-height: 90px;
+    text-align: center
+
+}
+.card66 .prom .s-pink{
+    height: 100px;
+    border: 5px solid #fff;
+    line-height: 90px;
+    text-align: center
+}
+.card66 .prom .m-pink{
+    height: 50px;
+    border: 5px solid #fff;
+    line-height: 40px;
+    text-align: center
+}
+.row .row .pink.col--1{
+    height: 250px;
+    border: 5px solid #fff;
+    line-height: 250px;
+    text-align: center;
+    margin: 10px 0;
+}
+.col1-8{
+    height: 130px;
+    border: 5px solid #fff;
+    line-height: 130px;
+    text-align: center;
+    margin: 20px 0;
+}
+.footer{
+    background: #FFFFFF;
+}
+.footer .line{
+    border-bottom: 1px solid rgba(0,0,0,0.1) ;       
+}
+
+.footer .col-3{
+    height: 80px;
+    line-height: 80px;
+    font-size: 10px;
+    text-align:center;
+    letter-spacing: 5px;  
+}
+
+.footer .big{
+    font-size: 30px;
+    color: red;
+}
+.footer .title{
+    font-weight:800;
+    font-size: 15px;
+}
+
+.footer .footer-nav{
+    height: 30px;
+    line-height: 30px;
+}
+.footer .record{
+    line-height: 20px;
+}
+.tab a:link,
+.prom .tab{
+    margin: 0 0 0 5px;
+    line-height: 28px;
+    font-size: 14px;
+    color: white;
+    vertical-align: middle;
+}
+.tab-list a:hover{
+    color: rgba(255,0,0,1);
+}
+.tab-list{
+    padding: 12px 0;
+}
+
+.prom .col-2 .prom .list-title,
+.prom .col.col-2 .uesr{
+    border-bottom: 1px solid   rgba(114, 114, 114,0.5);
+}
+.avatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px 10px 10px 30px;
+}
+.row .id-box{
+
+    margin: 30px 0 0 0;
+}
+.id-box .out a:link{
+    color: red;
+}
+.auth button{
+    border: 3px solid #181818;
+    margin: 5px 5px;
+    color: #181818;
+}
+.prom .col-2.whiet{
+    border-left: 5px solid #fff;
+}
+.prom .col-2 .prom .col.conten .col-12,
+.prom .col-2 .prom .list-title{
+    height: 25px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.prom .col-2 .prom .content{
+    margin: 10px 0 0 10px;
+}
+.service{
+    height: 236px;
+    margin-top: 10px;
+}
+.service .col-3{
+    height: 78.6px;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+.service .col-3 .icon{
+    font-size: 25em;
+}
+.service .col-3 .name{
+    color: rgba(0,0,0,0.9);
+}
+
+
+.card84 .col-7 .right{
+    margin: 50px 0 0 81px;
+}
+.card84 .col-5 .bold{
+    font-size: 23px;
+    font-weight: 900;
+    color: red;
+}
+.card84 .col-5 .text{
+    font-weight: 700;
+    font-size: 14px;
+}
+.card84 .col-5 .read{
+    font-size: 14px;
+    margin:29px 0 0 0;
+}
+.card84 .col-5 .row{
+    margin: 50px 0 0 0;
+}
+
+.nav .row .logo{
+    box-shadow: 2px 2px 3px#333333;
+}
+.prom .service-list .icon{
+    display: block;
+    
+}
+/* .global-sile{
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 1000px;
+    line-height: 800px;
+    width: 40px;
+    vertical-align: middle;
+} */
+/* .global-sile .icon{
+    display: inline-block;
+    font-size: 200%;
+    color: white;
+    background: black;
+    padding: 5px 0 0 5px;
+    border: 1px solid white;
+}
+.global-sile .sile-bar.mid{
+    width: 30px;
+    margin-top: 440px;
+    display: inline-block;
+}
+.global-sile .bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    width: 10px;
+    height: 1000px;
+    background: black;
+    z-index: 1;
+}
+.global-sile .sile-bar.bottom{
+    position: relative;
+    bottom: -197px;
+    right: 0;
+    width: 30px;
+    display: inline-block;
+}    
+.wrapper-height{
+    max-height: 1000px;
+    margin: auto 0;
+    display: block;
+} */
+.global-sile{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: block;
+}
+.global-sile .bg{
+    position: absolute;
+    display: block;
+    height: 100%;
+    right: 00;
+    display: block;
+    border-right: 5px solid black;
+    z-index: 999;
+    width: 0px;
+}
+.global-sile .bg .sile-bar{
+    position: absolute;
+    top: 45%;
+    left: -30;
+}
+.global-sile .foot-bar .icon,
+.sile-bar .icon{
+    position: relative;
+    display: block;
+    width: 35px;
+    height: 35px;
+    font-size: 160%;
+    color: white;
+    background: black;
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 1px;
+}
+.global-sile .foot-bar{
+    position: absolute;
+    bottom: -5px;
+    left: -30;
+}   

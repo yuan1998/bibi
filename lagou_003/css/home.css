@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: #fafafa;
+}
+
+.col{
+    font-size: 15px;
+}
+.global .login-bar{
+    display: block;
+    background: #09C084;
+    position: sticky;
+    bottom: 68px;
+    left: 0px;
+    height: 60px;
+    width: 100%;
+    z-index: 2;
+    color: #fff;
+    line-height: 60px;
+}
+.login-bar .img{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+}
+.login-bar .center{
+    font-size: 15px;
+    font-weight: lighter;
+    padding-left: 80px;
+}
+.part{
+    padding: 0px 20px;
+    color: rgba(255,255,255,0.3)
+}
+.login-bar .rigth .sigin{
+    border: 1px solid #fff;
+    height: 30px;
+    width: 60px;
+    line-height: 30px;
+    vertical-align: baseline;
+    background: white;
+    border-radius: 3.5px 3.5px 3.5px 3.5px;
+
+}
+.login-bar .rigth .login{
+    padding-right: 11.5px;
+    border: 1px solid #fff;
+    height: 30px;
+    width: 60px;
+    line-height: 30px;
+    vertical-align: baseline;
+    background: #09C084;
+    border-radius: 3.5px 3.5px 3.5px 3.5px;
+    margin-right: 20px;
+}
+.search-btn a:link,
+.login-bar .rigth .login:link{
+    color: rgba(255,255,255,0.8);
+}
+.login-bar .rigth .login:hover{
+    background: #fff;
+    color: #09C084;
+    z-index: 2;
+}
+
+.login-bar .sigin:link{
+    color: #09C084;
+}
+.header .top-nav.bg{
+    height: 30px;
+    background: #333;
+    width: 100%;
+    line-height: 30px;
+}
+.icon{
+    font-size: 17px;
+}
+
+.header .top-nav a:link{
+    color: #c4c3c3;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.location{
+    vertical-align: bottom;
+    font-size: 13px;
+}
+
+.location a:link{
+    color: rgba(0,0,0,0.5);
+    padding-right: 0px;
+}
+.nav-list{
+    margin-left: 20px;
+    line-height: 35px;
+    vertical-align: middle;
+}
+.nav-list .nav-item{
+    padding: 0 5px;
+
+}
+.nav-item a{
+    color: rgba(0,0,0,0.5);
+
+}
+
+.home-nav.row{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.home-nav .logo{
+    vertical-align: bottom;
+    padding-right: 10px;
+}
+.search-bar button{
+    height: 46px;
+    width: 142px;
+    border: 1px solid #09C084;
+    background: #09C084;
+    outline: 0;
+}
+.search-bar input{
+    height: 46px;
+    width: 762px;
+    outline: 0;
+}
+.search-bar.bg{
+    background: #F2F5F4;
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+.search-bar .wrapper{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.hot-search dt,
+.hot-search a:link{
+    padding: 0px 10px;
+    vertical-align: baseline;
+    font-size: 14px;
+    color: #00b38a;
+}
+.hot-search{
+    padding-left: 135px;
+    text-align: left;
+    margin: 8px 0;
+}

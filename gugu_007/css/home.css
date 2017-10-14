@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  position: relative;
+  vertical-align: top;
+}
+body{
+  text-align: center;
+}
+p{
+  display: inline-block;
+}
+#search_bar {
+  margin-top: 200px;
+  display: block;
+  text-align: center;
+}
+#search {
+  outline: none;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #FF99B3;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  font-size: 25px;
+  line-height: 40px;
+  color: rgba(0,0,0,0.6);
+}
+label{
+  display: inline-block;
+}
+#btn{
+  margin-left: -7px;
+  background: #FF99B3;
+  color:#fff;
+  height: 40px;
+  width: 80px;
+  border: 1px solid rgba(255, 153, 179,1);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+  font-size: 20px;
+  outline: none;
+}
+
+#btn:hover{
+  background: rgba(255,102,140, 1);
+  border: 1px solid rgba(255,102,140,1);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+#btn:active{
+  background: rgba(255, 153, 179,1);
+  border: 1px solid rgba(255, 153, 179,1);
+  border-radius: 3px; 
+  
+}
+#search_content{
+  position:absolute;
+  left: 25%;
+  font-size: 0;
+  width: 600px;
+  display: block;
+}
+
+.search_item{
+  border: 2px solid rgba(255, 153, 179,1);
+  padding: 10px;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+#search_content .name{
+  font-weight: bold;
+  display: block;
+  font-size: 30px;
+  color: rgb(255,140,102)
+}
+
+#search_content .game{
+  font-size: 18px;
+  display: block;
+  
+}

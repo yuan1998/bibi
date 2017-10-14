@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+}
+
+*row{
+    display:table-cell;
+}
+
+.nav {
+    background: #999;
+    text-align: right;
+}
+.nav a{
+    text-decoration: none;
+}
+.nav #logo{
+    text-align: left;
+}
+
+
+input{
+    border: 1px solid red;;
+    width: 400px;
+    height: 30px;
+}
+button{
+    background: red;
+    border: 1px solid red ;
+    height: 30px;
+    width: 30px;
+}
+.header{
+    background: #E0D3D3;
+}
+
+.header .search-bar{
+    padding: 50px 0 0 0;    
+    text-align: center;
+}
+
+.header .hot-seach{
+    padding: 50px 0 0 0;    
+    
+    text-align: center;
+
+}
+
+.header .page-nav{
+    padding: 100px 0 0 0;
+    text-align: center;
+}
+
+.page-nav a{
+    text-decoration: none;
+}
+
+.header .hot-search{
+    text-align: center;
+}
+
+.hot-search a{
+    text-decoration: none;
+}
+
+.hot-search .hot{
+    color: red;
+}
+
+.main-prom .cat{
+    display: inline-block;
+    width: 25%;
+    height: 250px;
+    background: #7C7474;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.main-prom .slider{
+    display: inline-block;
+    width: 95%;
+    height: 200px;
+    background: #A1A10A;
+    vertical-align: top;
+    margin: 10px;
+}
+.slider-cat{
+    display: inline-block;
+    width: 500px;
+    height: 250px;
+}
+
+
+
+.slider-cat .ab{
+    display: inline-block;
+    width: 45%;
+    height: 30px;
+    background: pink;
+    vertical-align: top;
+    margin: 1%;
+}
+
+.main-prom .other{
+    display: inline-block;
+    width: 20%;
+    height: 250px;
+    background: purple;
+    vertical-align: top;
+    margin: 10px;
+}
+.col-4{
+    vertical-align: top;
+}
+
+.row{
+    display: block;
+}
+
+.cat .item{
+    color: white;
+}
+
+.card-title.red{
+    font-size: 25px;
+    color: white;
+    padding: 0px 0 0 50px;
+}
+.card.full-width{
+    display: inline-block;
+    width: 90%;
+    vertical-align: middle;
+}
+.card.full-width .content{
+    display: block;
+    width: 100%;
+    padding: 20px;
+}
+.card.full-width .content .ab{
+    display: inline-block;
+    width: 13.66666666666%;
+    height: 150px;
+    margin: 10px;
+    background: blueviolet;
+}
+    
+.main-centent .row{
+    display: block;
+}
+.card.col-4{
+    display: inline-block;
+    width: 30.3%;
+    margin: 10px;
+}
+
+.card-title.green{
+    display: inline-block;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    padding: 8px 0 0 20px;    
+}
+.card-title.purple{
+    display: inline-block;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    padding: 8px 0 0 20px;
+}
+.card-title.orange,
+.card.col-8 .card-title,
+.card.col-4 .card-title{
+    display: block;
+    height: 50px;
+    font-size: 25px;
+    padding: 8px 0 0 50px;
+    color: #FFFFFF;
+}
+
+
+.card.col-4 .content{
+    display: block;
+    width: 100%;
+}
+
+.card .red{
+    background: red;
+}
+.card .green{
+    background: #008075;
+}
+.card .purple{
+    background: #6A0A77;
+}
+.card .orange{
+    background: #D3A510;
+}
+
+.card.col-8{
+    display: inline-block;
+    width: 50%;
+    margin: 10px;
+}
+
+.card.col-8 .card-title{
+    display: block;
+    height: 50px;
+    background: red;
+}
+
+.card.col-8 .content{
+    display: block;
+    width: 66%;
+}
+    
+
+
+.col-4 .blue{
+    display: block;
+    height: 50px;
+    width: 33%;
+    background: #4747E0;
+
+}
+
+.seg-title{
+    font-size: 30px;
+    text-align: center;
+    background: white;
+}
+.sm-card.green{
+    display: block;
+    width: 33%;
+    background: green;
+
+}
+.sm-card.yellow{
+    display: block;
+    width: 33%;
+    background: yellow;
+
+}
+.sm-card.red{
+    display: block;
+    width: 33%;
+    background: red;
+}
+.sm-card.brown{
+    display: block;
+    width: 33%;
+    background: brown;
+}
+
+.row .col-4 .row{
+    display: inline-block;
+    width: 100%;
+    height: 33.3%;
+}
+
+.row .col-4 .row .ab{
+    display: inline-block;
+    width: 45%;
+    height: 50px;
+    margin: 1px 0.5px;
+    background: blueviolet;
+    
+}

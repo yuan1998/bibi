@@ -1,0 +1,101 @@
+
+a:hover{
+    color: rgba(0,0,0,0.1)
+}
+.prom .list-bar .list{
+    padding-top: 30px;
+    padding-left: 12px;
+}
+.prom .list-bar .list .item{
+    padding: 2px 0;
+    font-size: 15px;
+}
+.prom .list-bar .list .item a{
+    color: #e6e6e6;
+}
+
+.prom .list-bar{
+    background: #552E2E;
+}
+
+.prom .list-bar{
+    height: 500px;
+}
+.prom .slider-box .slider{
+    height: 340px;
+}
+.prom .ad-box .ad{
+    height: 160px;
+}
+.prom .list-bar,
+.prom .ad-box .col .row,
+.prom .slider-box .slider{
+    margin: 2px;
+}
+
+.user-box .avatar{
+    height: 50px;
+    width: 50px;
+    border: 1 solid black;
+    border-radius: 50%;
+    background: yellow;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.user-box .col-7{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.user-box{
+    padding-top: 20px;
+
+}
+
+.welfare-box{
+    margin-top: 5px ;
+    padding-bottom: 10px ;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.welfare-box .btn{
+    border: 2px solid red;
+    height: 22px;
+    width: 69px;
+    margin: 0 10px;
+}
+.article-box{
+    margin-top: 10px;
+
+}
+.title-box{
+    padding-bottom: 5px;
+    padding-left: 8px;
+    border-bottom: 1px solid black;
+}
+.title-box .title a{
+    color: #181818;
+    padding: 0 5px;
+}
+.title-box .title .right{
+    padding-left: 70px;
+}
+.atticle-box a{
+    margin: 1px 7px;
+    padding: 5px 0;
+    color: #181818;
+    font-size: 14px;
+}
+.atticle-box{
+    padding-top: 13px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+
+}
+.service-box{
+    margin-top: 20px;
+    text-align: center;
+}
+.service-box .service{
+    font-size: 16px;
+    margin-bottom: 20px;
+}

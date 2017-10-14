@@ -1,0 +1,46 @@
+.col{
+    display: inline-block;
+    font-size: 20px;
+}
+.side-bar,
+.nav-bar{
+    background: #181818;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    background: #fff;
+    color: #181818;
+}
+.header .sigin,
+.header .login,
+.nav-item{
+    color: #fff;
+}
+.footer-title,
+.head-title{
+    color:#fff;
+    background: red;
+}
+.h50{
+    height: 50px;
+}
+.color2 .col{
+    padding: 10px;
+    margin: 10px 0;
+}
+.img-box .col:nth-child(odd),
+.color2 .col:nth-child(odd),
+.color .col:nth-child(odd){
+    background: #0f0;
+}
+.img-box .col:nth-child(even),
+.color2 .col:nth-child(even),
+.color .col:nth-child(even){
+    background: #f00;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
